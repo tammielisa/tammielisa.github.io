@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Creating an R Shiny App to Display PyMOL Images.
 
 I’ve been learning to use PyMol, and I had the idea to create a Shiny app to display some of the images I created. 
