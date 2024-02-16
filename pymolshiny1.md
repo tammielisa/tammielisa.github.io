@@ -30,7 +30,7 @@ This could include elements like sliders, buttons, or any other controls you wan
 -Use Shiny's reactive features to respond to user inputs. For example, you might use sliders to control the orientation of the molecule.
 
 <pre>
-```
+```r
 library(shiny)
 library(shinyjs)
 
