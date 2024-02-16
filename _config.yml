@@ -3,3 +3,6 @@ title: Tammi Elisa
 #description:
 #show_downloads:
 theme: jekyll-theme-minimal
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
