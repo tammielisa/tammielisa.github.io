@@ -2,7 +2,7 @@
 
 I’ve been learning to use PyMol, and I had the idea to create a Shiny app to display some of the images I created. To save time, and also since I’m an idiot, I enlisted the help of none other than Chat GPT to show me how. I chose Shiny because I have some experience with it as well as R.
 
-Chap GPT showed me two different ways to code the app; one worked for me and the other didn’t. The one that did not work used the addition of the ShinyJS package, and I’m curious to know if this way works for others and why. Following is the conversation we had. 
+Chat GPT showed me two different ways to code the app; one worked for me and the other didn’t. The one that did not work used the addition of the ShinyJS package, and I’m curious to know if this way works for others and why. Following is the conversation we had. 
 
 Me:
 hi. I'm learning to use pymol and I want to display some images I made that show a molecule from different angles. Since R is the language I'm most familiar with, I was wondering if this is possible to do with a Shiny app?
