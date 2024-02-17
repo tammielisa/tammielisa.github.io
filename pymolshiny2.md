@@ -1,4 +1,4 @@
-#ChatGPT Shiny App Part 2: Make Sure You Have a 'WWW' Folder!
+# ChatGPT Shiny App Part 2: Make Sure You Have a 'WWW' Folder!
 
 To start things off, I attempted to simply get the image to show up in the app. This is done in the UI part only; 
 no server logic is needed. When working correctly, this should simply display a static image when the app runs. 
