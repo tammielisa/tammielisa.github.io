@@ -1,5 +1,7 @@
-<span style="color: #a13e28;"> # Welcome! </span>
+# Welcome!
 
 Check out some projects I've been working on...
 
-<span style="color: #3498db;">[Creating a Shiny App with Chat GPT](pymolshiny1.md)</span>
+[Creating a Shiny App with Chat GPT](pymolshiny1.md)
+
+[ChatGPT Shiny App Part 2: Make Sure You Have a 'WWW' Folder!](pymolshiny2.md)
