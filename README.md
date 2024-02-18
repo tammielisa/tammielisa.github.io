@@ -2,6 +2,12 @@
 
 Check out some projects I've been working on...
 
+**[My App!](https://tammielisa.shinyapps.io/hemo2/)**
+
+_________________________
+
+My journey...
+
 **[Creating a Shiny App with Chat GPT, Part 1](pymolshiny1.md)**
 
 **[Part 2: Make Sure You Have a 'WWW' Folder!](pymolshiny2.md)**
