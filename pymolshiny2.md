@@ -7,26 +7,26 @@ However, I kept getting a broken image icon. I made sure that the image was insi
 The code looked like this:
 		
 		
-		```r
-		library(shiny)
-		library(shinyjs)
-		
-		ui <- fluidPage(
-		  # UI components go here
-		ui <- fluidPage(
-		  # UI components go here
-		  tags$img(src = "path/to/your/image.png", id = "pymolImage"),
+```r
+library(shiny)
+library(shinyjs)
+
+ui <- fluidPage(
+ # UI components go here
+ ui <- fluidPage(
+ # UI components go here
+	 tags$img(src = "path/to/your/image.png", id = "pymolImage"),
 		  useShinyjs()
-		)
+	)
 		
-		)
+	)
 		
-		server <- function(input, output) {
-		  # Server logic goes here
-		}
+server <- function(input, output) {
+	 # Server logic goes here
+	}
 		
-		shinyApp(ui, server)
-	```
+shinyApp(ui, server)
+```
 	
 Asking chat for help:
 
