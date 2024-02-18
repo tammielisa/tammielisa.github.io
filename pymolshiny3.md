@@ -5,12 +5,14 @@ For now, I just wanted to add a small slider that changed between a few differen
 The following method shown to me did not work, and you'll see why in the next part. Spoiler: the code is wrong!
 Be advised, I am using the free version here.
 
-Me: Can you show me how to use a slider to change the view. I have four separate pngs
+**Me:**
+"Can you show me how to use a slider to change the view. I have four separate pngs"
 
-Chat: Certainly! To use a slider to change the view and display different images based on the slider's value, 
-you can modify your Shiny app to include a sliderInput and update the displayed image dynamically in the server logic.
+***Chat:***
+*Certainly! To use a slider to change the view and display different images based on the slider's value,* 
+*you can modify your Shiny app to include a sliderInput and update the displayed image dynamically in the server logic.*
 
-Here's an example using a slider to cycle through four different images:
+*Here's an example using a slider to cycle through four different images:*
 
 ```r
 library(shiny)
@@ -32,21 +34,23 @@ server <- function(input, output) {
 shinyApp(ui, server)
 ```
 
-In this example:
+*In this example:*
 
-sliderInput is used to create a slider named "view_slider" with values ranging from 1 to 4, representing the different views.
+*sliderInput is used to create a slider named "view_slider" with values ranging from 1 to 4, representing the different views.
 tags$img displays the initial image with an id of "pymolImage".
 observe in the server logic is used to reactively update the image source based on the value selected by the slider.
-Make sure that you have the images named "scene1.png", "scene2.png", etc., in your www folder.
+Make sure that you have the images named "scene1.png", "scene2.png", etc., in your www folder.*
 
 At this point the app seemed to work, but the functionality was not there. What I got was a page that displayed a slider with the first image
 beneath it. I was able toggle the slider, but image did not change.
 
-Me: Ok. So I'm moving the slider but it isn't updating, it keeps displaying the static first image
+**Me:** 
+"Ok. So I'm moving the slider but it isn't updating, it keeps displaying the static first image"
 
-Chat: I see, it seems there is an issue with the observe block not correctly updating the image. 
+***Chat:***
+*I see, it seems there is an issue with the observe block not correctly updating the image. 
 The problem is likely with the paste0 function, which is not separating the slider value and the file extension properly. 
-Let's correct that:
+Let's correct that:*
 
 ```r
 library(shiny)
@@ -68,9 +72,11 @@ server <- function(input, output) {
 shinyApp(ui, server)
 ```
 
-Ensure that you have the images named scene1.png, scene2.png, scene3.png, and scene4.png in your www folder. This code should dynamically update 
-the displayed image based on the selected slider value.
+*Ensure that you have the images named scene1.png, scene2.png, scene3.png, and scene4.png in your www folder. This code should dynamically update 
+the displayed image based on the selected slider value.*
 
-Me: Still the same problem. And I just keep getting that same warning that I mentioned before. 
+**Me:**
+Still the same problem. And I just keep getting that same warning that I mentioned before. 
 I guess I should just give up. Thanks for your help anyway
 
+**[On to part 3.](pymolshiny4.md)**
