@@ -1,9 +1,9 @@
-# ChatGPT Shiny App Part 3: Adding a Slider (Didn't Work for Me!)
+# ChatGPT Shiny App Part 3: Adding a Slider (ChatGPT Got This Wrong!)
 
 Now that I got the image to display correctly at launch, I next wanted to add interactivity. 
 For now, I just wanted to add a small slider that changed between a few different images of the molecule at different angles.
-The following method shown to me did not work, but Chat showed me an alternate way of doing it that did, discussed in the next part.
-I would love feedback on the method shown and if it worked for others and why.
+The following method shown to me did not work, and you'll see why in the next part. Spoiler: the code is wrong!
+Be advised, I am using the free version here.
 
 Me: Can you show me how to use a slider to change the view. I have four separate pngs
 
