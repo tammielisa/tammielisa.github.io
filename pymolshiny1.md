@@ -25,7 +25,6 @@ This could include elements like sliders, buttons, or any other controls you wan
 
 *-Use Shiny's reactive features to respond to user inputs. For example, you might use sliders to control the orientation of the molecule.*
 
-<pre>
 ```r
 library(shiny)
 library(shinyjs)
@@ -46,7 +45,6 @@ server <- function(input, output) {
 
 shinyApp(ui, server)
 ```
-</pre>
 
 *Remember to replace "path/to/your/image.png" with the actual paths to your PyMOL images. Also, ensure that your PyMOL images 
 are generated and saved in a format that can be easily displayed within a Shiny app.*
