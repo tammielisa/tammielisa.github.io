@@ -37,3 +37,5 @@ This should work for dynamically updating the displayed image based on the slide
 and I apologize for any confusion caused by my previous responses.*
 
 I pasted this code and... success! A simple simple with four values, that switches between images. Yay!
+
+**[On to part 5.](pymolshiny5)**
