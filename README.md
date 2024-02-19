@@ -15,3 +15,8 @@ My journey...
 **[Part 3: Adding a Slider (ChatGPT Got This Wrong!)](pymolshiny3.md)**
 
 **[Part 4: Alternate Slider Code (This One Worked!)](pymolshiny4.md)**
+
+**[Part 5: Navbar and Subscript Text](pymolshiny5.md)**
+
+**[Part 6: More Tabs, Images and Source Links](pymolshiny6)**
+
