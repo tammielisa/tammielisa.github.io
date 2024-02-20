@@ -6,7 +6,13 @@ Check out some projects I've been working on...
 
 _________________________
 
-My journey...
+Some useful R Code
+
+[R: Visualize Amino Acid Frequencies in a Protein](rproseq.md)
+
+_________________________
+
+My app building journey...
 
 **[Creating a Shiny App with Chat GPT, Part 1](pymolshiny1.md)**
 
