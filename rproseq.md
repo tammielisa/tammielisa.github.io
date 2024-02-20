@@ -44,5 +44,6 @@ ggplot(aa_counts, aes(x = AminoAcid, y = Frequency, fill = AminoAcid)) +
 
 ```
 
-Resulting image:
+*Resulting image:*
 
+![](aacount.png)
