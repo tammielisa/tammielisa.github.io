@@ -3,14 +3,16 @@
 
 @import "{{ site.theme }}";
 body {
-  background-color: #C7B6B3; /* replace with your color */
+  background-color: #E3D0CC; /* replace with your color */
   color: #613930; 
   font-family: "Courier New", monospace;
+  border-style: solid;
+  border-color: #946E68;
 }
 h1 {
   color: #946E68;
   font-weight: bold;
 }
 a {
-  color: #78A18F;
+  color: #347568;
 }
