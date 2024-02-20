@@ -8,7 +8,7 @@ _________________________
 
 Some useful R Code
 
-[R: Visualize Amino Acid Frequencies in a Protein](rproseq.md)
+**[R: Visualize Amino Acid Frequencies in a Protein](rproseq.md)**
 
 _________________________
 
