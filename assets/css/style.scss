@@ -10,8 +10,12 @@ body {
   border-color: #946E68;
 }
 div {
-  background-color: #CDBEBB;
+  background-color: #E3D0CC;
 }
+div.content pre {
+ background: #CDBEBB;
+}
+
 h1 {
   color: #946E68;
   font-weight: bold;
