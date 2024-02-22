@@ -1,6 +1,6 @@
 # Welcome!
 
-**My Shiny Apps:**
+## My Shiny Apps:
 
 **[Amino Acid Counts in Hemoglobin](https://tammielisa.shinyapps.io/hemox/)**
 
@@ -8,13 +8,13 @@
 
 _________________________
 
-Some useful R Code
+## Some useful R Code
 
 **[R: Visualize Amino Acid Frequencies in a Protein](rproseq.md)**
 
 _________________________
 
-My app building journey...
+## My app building journey...
 
 **[A Shiny App That Makes Visulations from PDB Files](hemoshiny.md)**
 
