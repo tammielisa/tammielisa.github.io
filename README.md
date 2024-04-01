@@ -14,6 +14,8 @@ _________________________
 
 **[Data Collection with the Theme Park Wiki](disneywait.md)**
 
+**[Data Collection with the Theme Park Wiki, Part 2](disneywait2.md)**
+
 _________________________
 
 ## Building a Shiny App for Pymol Images
