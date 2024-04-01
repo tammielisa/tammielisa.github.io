@@ -1,4 +1,4 @@
-##Collecting Disney World Wait Time Data Using R
+## Collecting Disney World Wait Time Data Using R
 
 After a recent trip to Disney World using the app to see atrraction wait times, I felt I could do better. 
 I wanted to create something that was a simple table that contained the top attractions all in one place. 
@@ -52,4 +52,4 @@ df4 <- data4[, columns]
 data <- rbind(df1, df2, df3, df4)
 #data
 ```
-
+[Go to Part 2](disneywait2)
