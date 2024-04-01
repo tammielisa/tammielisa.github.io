@@ -8,9 +8,9 @@
 
 _________________________
 
-## Some useful R Code
+## Some Useful R Code
 
-**[R: Visualize Amino Acid Frequencies in a Protein](rproseq.md)**
+**[Visualize Amino Acid Frequencies in a Protein](rproseq.md)**
 
 **[Data Collection with the Theme Park Wiki](disneywait.md)**
 
